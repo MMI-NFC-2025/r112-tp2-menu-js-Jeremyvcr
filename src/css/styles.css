@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(173, 252, 195);
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 10px 0;
+}
+
+a {
+  color: black;
+  font-size: 18px;
+}
+
+a:hover {
+  color: blue;
+}
+nav > h4::before {
+  content: url("../../public/icones/book.svg");
+}
+
+.media {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
