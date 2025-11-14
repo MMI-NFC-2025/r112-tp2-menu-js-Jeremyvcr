@@ -27,4 +27,11 @@ nav > h4::before {
   height: auto;
   border-radius: 10px;
 }
+nav > h4::before {
+  content: url("../../public/icones/book.svg");
+}
+
+nav > ul > li > a::before {
+  content: url("../../public/icones/bag-plus.svg");
+}
 
